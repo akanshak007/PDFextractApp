@@ -10,7 +10,7 @@ canvas.grid(columnspan=3, rowspan=3)
 
 
 #logo
-logo = Image.open('logo.jpg')
+logo = Image.open('C:\mygit\TextExtractionAPP\PDFextractApp\logo.jpg')
 logo = ImageTk.PhotoImage(logo)
 logo_label = tk.Label(image=logo)
 logo_label.image = logo
